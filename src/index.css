@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.mouse_pointer{
+  cursor: pointer;
+}
+.App {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+
+}
+.row{
+  margin : 0px;
+  padding : 0px;
+  height: 100%;
+}
+.navbar-nav > li {
+  float: left;
+  position: relative;
+}
+.navbar-light .navbar-nav .active a::after {
+  border-bottom: 5px solid #5bc0eb;
+  bottom: -10px;
+  content: " ";
+  left: 0;
+  position: absolute;
+  right: 0;
+}
+.production_area{
+  height: 100%;
+}
+
+.productionList{
+  margin-top: 10px;
+}
+.tab-content{
+  height: 85%;
+}
+.tabpanel{
+  height: 100%;
+}
+.productionListItem{
+  border-top: 1px solid #dee2e6;
+  border-bottom: 1px solid #dee2e6;
+  padding : 10px;
+}
+.productionListItem:hover{
+  background-color: rgba(133, 133, 133, 0.246);
+}
+.production-info p{
+  padding: 0px;
+  margin: 0px;
+}
+.video_area{
+  height: 100%;
+  /* background-color: #dee2e66e; */
+}
+.player_tool{
+  height: 100%;
+  width: 31.5%;
+  position : absolute;
+}
+@media only screen and (max-width: 991px) {
+  .player_tool{
+    width: 48%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .player_tool{
+    width: 98%;
+  }
+}
+
+.player_tool_bottom{
+  /* background-color: #dee2e6; */
+}
+.chat_area{
+  height: 100%;
+}
+.ChatAreaHeader{
+  border-top: 1px solid #dee2e6;
+  border-bottom: 1px solid #dee2e6;
+}
+.ChatAreaHeader p{
+  padding: 0px;
+  margin: 0px;
+}
+.NewChat{
+  background-color: rgba(190, 190, 190, 0.404);
+  /* border-radius: 100%; */
+  /* width: 80%; */
+}
+.message{
+  background-color: rgba(190, 190, 190, 0.404);
+  padding: 10px;
+  border-radius: 20px 20px 20px 0px;
+}
+.chat_area_bottom{
+  align-items: center;
+}
+#chatinput{
+  background-color: transparent;
+  border: none;
+  margin: 10px 0px 10px 0px;
+  /* float: left; */
+  width: 80%;
+}
+#chatinput:focus{
+  outline: none;
+}
+
+.mobilemain{
+  height: 95%;
+}
+.m_videoplayer{
+  height: 95vh;
+  width: 100vw;
+  position: absolute;
+}
+.production_chat{
+  height: 100%;
+  
+  background-color: rgba(255, 255, 255, 0.212);
+}
+.m_production_list{
+  height: 50%;
+}
+.m_chat_area{
+  height: 50%;
+}
+.m_chat_input:focus{
+  background-color: transparent;
+}
+.m_chat_input::placeholder {
+  color: white;
+}
+.mobilebottom{
+  height: 5%;
+}
+.m_bottom_item{
+  width: 50%;
+}
+.m_bottom_item_icon{
+  margin: auto;
+  height: 60%;
+  width: auto;
+}
