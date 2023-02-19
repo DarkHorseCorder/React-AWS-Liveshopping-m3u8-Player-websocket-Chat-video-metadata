@@ -7,7 +7,7 @@
 export const PLAYBACK_URL = "https://d34ferbfp3exdg.cloudfront.net/ivs/v1/263504711656/ON1mIX5kLymP/2022/5/17/5/25/wttyrB0xmd0I/media/hls/master.m3u8";
 
 // Chat websocket address
-export const CHAT_WEBSOCKET = "wss://9272aqtaqk.execute-api.us-east-1.amazonaws.com/production";
+export const CHAT_WEBSOCKET = "wss://2e4gbnvi59.execute-api.eu-west-1.amazonaws.com/production";
 
 // Enabling USE_MOCK_DATA will not require an eCommerce demo Backend (see serverless\README.md)
 export const USE_MOCK_DATA = true;
